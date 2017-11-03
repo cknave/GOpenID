@@ -2,12 +2,13 @@ package provider
 
 import (
 	"errors"
-	"github.com/GehirnInc/GOpenID"
-	"github.com/GehirnInc/GOpenID/dh"
 	"math/big"
 	"net/url"
 	"strconv"
 	"time"
+
+	"github.com/cknave/GOpenID"
+	"github.com/cknave/GOpenID/dh"
 )
 
 var (

@@ -2,10 +2,11 @@ package provider
 
 import (
 	"fmt"
-	"github.com/GehirnInc/GOpenID"
-	"github.com/stretchr/testify/assert"
 	"net/url"
 	"testing"
+
+	"github.com/cknave/GOpenID"
+	"github.com/stretchr/testify/assert"
 )
 
 type checkidRequestCase struct {

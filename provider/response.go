@@ -1,8 +1,9 @@
 package provider
 
 import (
-	"github.com/GehirnInc/GOpenID"
 	"net/url"
+
+	"github.com/cknave/GOpenID"
 )
 
 type Response interface {

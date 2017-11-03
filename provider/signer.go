@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GehirnInc/GOpenID"
+	"github.com/cknave/GOpenID"
 	"github.com/google/uuid"
 )
 

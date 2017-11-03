@@ -2,9 +2,10 @@ package provider
 
 import (
 	"errors"
-	"github.com/GehirnInc/GOpenID"
-	"github.com/GehirnInc/GOpenID/dh"
 	"math/big"
+
+	"github.com/cknave/GOpenID"
+	"github.com/cknave/GOpenID/dh"
 )
 
 var (

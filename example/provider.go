@@ -5,8 +5,6 @@ import (
 	"crypto/rand"
 	"errors"
 	"fmt"
-	"github.com/GehirnInc/GOpenID"
-	"github.com/GehirnInc/GOpenID/provider"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -15,6 +13,9 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/cknave/GOpenID"
+	"github.com/cknave/GOpenID/provider"
 )
 
 const (

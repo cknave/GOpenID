@@ -1,9 +1,10 @@
 package provider
 
 import (
-	"github.com/GehirnInc/GOpenID"
 	"io"
 	"time"
+
+	"github.com/cknave/GOpenID"
 )
 
 type Provider struct {
